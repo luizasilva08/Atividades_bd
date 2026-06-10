@@ -1,4 +1,4 @@
--- Active: 1780941733662@@mysql-2334abba-mysql-1234.e.aivencloud.com@22061@HospitalDB
+-- Active: 1781116803083@@mysql-2334abba-mysql-1234.e.aivencloud.com@22061@HospitalDB
 
 -- 1
 SELECT nome, cidade 
@@ -24,7 +24,7 @@ WHERE data_consulta > '2025-08-02';
 
 -- 7 
 SELECT * FROM Exames 
-WHERE data_exame BETWEEN '2025-08-01' AND '2025-08-05'; -- Substitua pelas datas desejadas
+WHERE data_exame BETWEEN '2025-08-01' AND '2025-08-05'; -
 
 -- 8
 SELECT nome, cargo, salario 
@@ -38,7 +38,7 @@ WHERE status_quarto = 'Livre';
 
 -- 10
 SELECT * FROM Pagamentos 
-WHERE forma_pagamento = 'PIX'; -- Substitua pela forma informada (ex: 'Cartão', 'Dinheiro')
+WHERE forma_pagamento = 'PIX'; 
 
 -- 11 
 SELECT COUNT(*) AS total_pacientes 
